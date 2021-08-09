@@ -1,0 +1,45 @@
+body{
+    margin: 20px;
+    padding: 0px;
+    background-image:linear-gradient(120deg,#ff6b6b,#5f27cd) ;
+   display: grid;
+   place-items: center;
+}
+.main{
+    margin-top: 20px;
+  
+    height: 50vh;
+    width: 50vh;
+    background-color: ivory;
+    text-align: center;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid black; 
+  box-shadow: 1px 1px 20px #ee5253;
+  border-radius: 13px;
+
+  
+
+ 
+
+}
+    #heighs{
+        padding-top: 20px;
+    }
+    #heading{
+    text-align: center;
+    }
+#btn{
+    margin-top: 10px;
+    border: 5px solid green;
+    border-radius: 30%;
+    background-color: greenyellow;
+}
+#btn:hover{
+    background-color: hotpink;
+}
+h2{
+    font-size: 50px;
+}
